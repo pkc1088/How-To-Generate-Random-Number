@@ -1,0 +1,93 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 160 176)
+	(text "split_into_two" (rect 5 0 88 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "clk" (rect 21 27 37 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "start" (rect 0 0 27 19)(font "Intel Clear" (font_size 8)))
+		(text "start" (rect 21 43 48 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "stop" (rect 0 0 25 19)(font "Intel Clear" (font_size 8)))
+		(text "stop" (rect 21 59 46 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 144 32)
+		(output)
+		(text "rand1[3..0]" (rect 0 0 66 19)(font "Intel Clear" (font_size 8)))
+		(text "rand1[3..0]" (rect 57 27 123 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 32)(pt 128 32)(line_width 3))
+	)
+	(port
+		(pt 144 48)
+		(output)
+		(text "one[3..0]" (rect 0 0 51 19)(font "Intel Clear" (font_size 8)))
+		(text "one[3..0]" (rect 72 43 123 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 48)(pt 128 48)(line_width 3))
+	)
+	(port
+		(pt 144 64)
+		(output)
+		(text "two[3..0]" (rect 0 0 51 19)(font "Intel Clear" (font_size 8)))
+		(text "two[3..0]" (rect 72 59 123 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 64)(pt 128 64)(line_width 3))
+	)
+	(port
+		(pt 144 80)
+		(output)
+		(text "three[3..0]" (rect 0 0 61 19)(font "Intel Clear" (font_size 8)))
+		(text "three[3..0]" (rect 62 75 123 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 80)(pt 128 80)(line_width 3))
+	)
+	(port
+		(pt 144 96)
+		(output)
+		(text "four[3..0]" (rect 0 0 54 19)(font "Intel Clear" (font_size 8)))
+		(text "four[3..0]" (rect 69 91 123 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 96)(pt 128 96)(line_width 3))
+	)
+	(port
+		(pt 144 112)
+		(output)
+		(text "rand2[3..0]" (rect 0 0 66 19)(font "Intel Clear" (font_size 8)))
+		(text "rand2[3..0]" (rect 57 107 123 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 112)(pt 128 112)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 128 144))
+	)
+)

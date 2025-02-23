@@ -1,0 +1,89 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 16:55:32  December 01, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		combine_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY FinalModule
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:55:32  DECEMBER 01, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BDF_FILE Term_countdown.bdf
+set_global_assignment -name VERILOG_FILE slow10_clock.v
+set_global_assignment -name VERILOG_FILE countdown_timer.v
+set_global_assignment -name BSF_FILE Term_05.bsf
+set_global_assignment -name BSF_FILE symbol_week10_Trigger.bsf
+set_global_assignment -name BSF_FILE symbol_week10_D2B.bsf
+set_global_assignment -name BSF_FILE symbol_week10_count4.bsf
+set_global_assignment -name BSF_FILE symbol_week10_B2Seg.bsf
+set_global_assignment -name BSF_FILE symbol_week10_4BitRegCE.bsf
+set_global_assignment -name BSF_FILE symbol_mx4bit2x1.bsf
+set_global_assignment -name BSF_FILE symbol_mx2x1.bsf
+set_global_assignment -name BSF_FILE StartStopController.bsf
+set_global_assignment -name BSF_FILE split_into_two.bsf
+set_global_assignment -name BSF_FILE split_digits.bsf
+set_global_assignment -name BSF_FILE slow10_clock.bsf
+set_global_assignment -name BSF_FILE RGN.bsf
+set_global_assignment -name BSF_FILE PNU_CLK_DIV.bsf
+set_global_assignment -name BSF_FILE LCG_3_0.bsf
+set_global_assignment -name BSF_FILE LCG_3.bsf
+set_global_assignment -name BSF_FILE countdown_timer.bsf
+set_global_assignment -name BDF_FILE week10_Trigger.bdf
+set_global_assignment -name BDF_FILE week10_prac_temp1.bdf
+set_global_assignment -name BDF_FILE week10_D2B.bdf
+set_global_assignment -name BDF_FILE week10_count4.bdf
+set_global_assignment -name BDF_FILE week10_B2Seg.bdf
+set_global_assignment -name BDF_FILE week10_4BitRegCE.bdf
+set_global_assignment -name BDF_FILE week9_mx4bit2x1.bdf
+set_global_assignment -name BDF_FILE week9_mx2x1.bdf
+set_global_assignment -name BDF_FILE Term_05.bdf
+set_global_assignment -name VERILOG_FILE StartStopController.v
+set_global_assignment -name BDF_FILE split_into_two.bdf
+set_global_assignment -name VERILOG_FILE split_digits_tb.v
+set_global_assignment -name VERILOG_FILE split_digits.v
+set_global_assignment -name BDF_FILE RGN.bdf
+set_global_assignment -name VERILOG_FILE PNU_CLK_DIV.v
+set_global_assignment -name VERILOG_FILE LCG_3_0.v
+set_global_assignment -name VERILOG_FILE LCG_3.v
+set_global_assignment -name VERILOG_FILE slow50_clock.v
+set_global_assignment -name VERILOG_FILE slow500_clock.v
+set_global_assignment -name VERILOG_FILE slow_clock.v
+set_global_assignment -name VERILOG_FILE slow_clock9.v
+set_global_assignment -name VERILOG_FILE LCD_Display.v
+set_global_assignment -name BDF_FILE FinalModule.bdf

@@ -1,0 +1,18 @@
+module StartStopController (
+    input clk,
+    input start,
+    input stop,
+    output reg [1:0] state  // is_stop을 2비트로 변경
+);
+
+    always @(posedge clk) begin
+        if (start) 
+            state <= 1;  // start 신호가 들어오면 is_stop을 1로 설정
+        else if (stop)
+            state <= 0;  // stop 신호가 들어오면 is_stop을 0으로 설정
+        //else if (~start && ~stop)
+        //    state <= state;  // start와 stop 모두 눌리지 않으면 is_stop을 2로 설정
+    end
+
+endmodule
+
