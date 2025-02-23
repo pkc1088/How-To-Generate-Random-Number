@@ -10,7 +10,6 @@
   - 컴퓨터가 어떻게 난수를 구현하는지 항상 의문이 있었다
   - 과연 그 난수는 일반적인 관점에서 랜덤하다라고 할 수 있는지 검증하고
   - 더 개선시킬 여지가 있는지 low level에서 직접 설계 및 실험 해보기 위해 시작했다<br/><br/>
-- **프로젝트를 통해 무엇을 배우셨나요** 
 - **프로젝트 스펙**
   - 제작 기간 : 2024.11.11 - 2024.12.20
   - 사용 툴 : Quartus Prime, Vivado, FPGA HBE-Combo2, Verilog
@@ -80,5 +79,13 @@
   ![Image](https://github.com/user-attachments/assets/495ac731-6cf2-429a-9458-e7448f43d085)<br/><br/>
     - 주어진 LED 퀴즈에 따라 정답인 ‘0200’을 제한 시간 안에 입력 완료하면 Full Color LED는 초록색으로 변화하면 타이머는 멈춘다
     - 새로운 난수를 받아 게임을 다시 실행하기 위해서는 최초의 동작과 동일하게 start 버튼을 누른 후 stop 버튼을 누르면 된다<br/><br/>
+- **프로젝트 결론 및 리뷰**
+  - PGA를 이용한 하드웨어 설계의 다양한 요소를 통합적으로 활용한 프로젝트로, 설계부터 구현, 시연까지 전 과정을 통해 디지털 논리 설계 및 시스템 통합 능력을 향상시킬 수 있었다.
+  - 실습에서 사용한 모듈 외에 다른 모듈을 활용해보며 회로 설계뿐만 아니라 수식이 원활히 동작하도록 직접 Verilog 코드를 작성했다는 점에서 의미가 크다.
+  - RNG, 타이머, 비교기, 레지스터 등의 모듈 설계와 이를 FPGA에서 구현함으로써 하드웨어 설계의 기본 개념을 심화할 수 있었다.
+  - 특히, PRNG 방식인 LCG와 TRNG의 결합은 실제 응용에서 패턴 예측 가능성을 줄이는 창의적인 접근으로, 하드웨어 난수 생성의 실질적인 설계 원리를 경험하는 계기가 되었다.
+  - 모듈 간 신호 연결, 클럭 분주를 통한 타이밍 제어, 입력값 비교 및 출력 처리 등의 과정을 거치며 디지털 회로 설계에서 모듈화와 통합 설계의 중요성을 체감할 수 있었다.
+  - 게임의 긴장감을 높이기 위해 카운트다운 타이머를 도입하거나, 사용자 입력 혼선을 방지하기 위해 출력 디스플레이 위치를 변경하는 등
+  - UI/UX를 고려한 설계 변경을 통해 단순한 논리 회로 설계에서 나아가 실질적으로 사용 가능한 시스템을 설계하는 과정을 배웠다. <br/><br/>
 - **참고자료**
   - [1] Majzoobi, Mehrdad, Farinaz Koushanfar, and Srinivas Devadas. "FPGA-based true random number generation using circuit metastability with adaptive feedback control." Cryptographic Hardware and Embedded Systems–CHES 2011: 13th International Workshop, Nara, Japan, September 28–October 1, 2011. Proceedings 13. Springer Berlin Heidelberg, 2011
