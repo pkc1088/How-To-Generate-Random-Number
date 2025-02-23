@@ -17,7 +17,7 @@
 - **프로젝트 설치 및 실행 방법**
   - 아래 링크에서 AMD 계정 생성 후 Vivado를 설치한다
     - https://www.xilinx.com/support/download.html
-  - 'SpeedMentalConversionQuiz' 폴더의 모든 bdf, bsf, v 파일을 업로드한다
+  - 'SpeedMentalConversionQuiz' 폴더의 모든 bdf, bsf, v 파일을 Vivado에 업로드한다
   - '보고서&제안서&발표자료'의 FPGA board pin map을 참고해 핀 셋팅한다
   - HBE combo2 보드를 포팅한 후 실행한다<br/><br/>
 
